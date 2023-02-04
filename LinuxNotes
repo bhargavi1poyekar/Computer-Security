@@ -122,6 +122,93 @@ find . -newer <filename> files newer than given file
 
 ------------------------------------------------------------------------------
 
+Editing and Viewing file content
+
+head <filename> => shows first 5 lines of the file
+tail <filename> => last 10 lines
+More <filename> shows all the content
+
+Editors in Linux: Nano, Vi, Emax
+
+nano <filename> => open/creates file in nano editor => used for simple tasks, to append some text to existing file or write notes
+
+vi <filename> => i then edit 
+to escape: escape-> shift-> :wq -> enter
+
+---------------------------------------------------------------------------
+
+Copying, Renaming, Moving
+
+cp <filename1> <filename2> => Copies the content of first file to second(creates second file if doesnt exist, if exist, replaces the content of that file with copied content)
+
+cp -r <dir1> <dir2> => Copies content of dir 1 to dir 2
+
+mv <filename> <directoryname> => moves file to that directory
+
+mv <filename> <renamedfile> => renames the file
+
+-----------------------------------------------------------------------------
+
+Extracting and Compressing files
+
+tar -cf <filename.tar> <path to be stored> => Creates tar of the folder
+
+create zip => gzip <filename> 
+
+------------------------------------------------------------------------------
+
+Input Output redirection:
+
+echo "hello world" > <filename> => stores the output of echo to file
+
+echo "hii" >> <filename> => appends the output if file already exists
+
+wc <filename> => counts lines words and bytes of file, and filename
+
+wc < <filename> => doesn't print filename, because it just gets stream input from the file because of '<'
+
+-------------------------------------------------------------------------------
+
+grep => find certain patterns in a file
+
+grep <pattern> <filename> 
+
+eg: grep hel input.txt
+
+grep -c => outputs count of occurence
+grep -i => case insensitive
+grep -v => non matching lines
+
+grep -n => gives line number
+
+--------------------------------------------------------------------------
+
+Pipes: | => combines multiple commands together
+
+---------------------------------------------------------------
+
+Environment Variables
+
+<Variable Name> = '<variable content>'
+
+Use that variable using => $<Variable Name>
+
+------------------------------------------------------------------
+
+processed=> ps => shows the current process running
+
+ps -p <pid> => finds process with that pid
+
+---------------------------------------------------------
+
+Users: whoami => current user
+
+change user => su <username>
+
+------------------------------------------------------------
+
+
+
 
 
 
