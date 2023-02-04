@@ -1,0 +1,144 @@
+Linux is OS-> free and open source.
+Kernel=> which is interface between h/w and s/which
+
+Many Linux distributions=> ubuntu, kali, debain, centos
+
+Linux runs on all kinds of H/w platforms
+
+Stable, relaible, secure
+
+Great for servers
+
+Linux in cyber security=> penetration test, vulnerability scans.
+
+Linux directories:
+
+/ => Root directory
+/bin => binaries and other executable programs
+/etc => system configuration files
+/home => home directories
+/opt => optional or 3rd party software
+/tmp => temporary space, typically cleared on reboot
+/usr => user related programs
+/var => variable data, mostly log files
+
+------------------------------------------------------------------
+Common Commands:
+
+ls => list directories
+pwd => print working directory
+cat <filename> => shows the content of the file
+echo "<statement>" => Acts as print => prints whatever is in the quotes
+help, man <command name> => shows the manual of the command
+
+man => inside manual
+    => move to next page=> press space
+    => move to top of the page => press g
+    => quit manual = press q
+    => move to bottom of page => G
+
+touch <filename> => Creates a new file in the directory
+rm <filename> => deletes file
+
+exit => closes the terminal 
+type -a <command name> tells the location of that command and also tells if it is shell built-in. if it is, then we can use help on it. Help doesnt work for commands which are not shell built in
+
+-------------------------------------------------------------
+Directory commands:
+
+cd => goes to home directory
+cd <child_directory>=> change directory => goes to child (goes down 1 directory down the heirarchy)
+cd .. => come back to parent (go back 1 directory up heirarchy)
+cd - => goes back 1 directory and also tells where we are now
+mkdir <foldername> => Create new directory => if want to create multiple dir at a time, use space between directorynames . eg: mkdir bhargavi arya
+
+rmdir <foldername> => removes directory
+
+rm -rf <foldername> => deletes directory and its content => you need to be in the parent directory of this directory
+
+-------------------------------------------------------------------
+
+Ls command:
+
+ls -a => lists all files including the hidden files
+ls -l => shows all the files in a long format with their permissions and more info like date and time
+ls -r => list the files in descending order (alphabetically)
+ls -t => sort by time
+
+-----------------------------------------------------------------------
+
+File permissions:
+
+permission types => 
+        => r => read
+        => w => write
+        => x => execute
+
+Eg:
+
+-rw-rw-r--
+=> first dash => represents current file => it is d if it is a folder or l if link
+=> first rw- => current user
+=> middle rw => belong to group permission
+=> last r => others
+
+Change permissions:
+
+UGOA => U for user, G=> group, O=> other, A=> All
++-= => + add permission, - subtract permission, = set all
+rwx => read , write, execute
+
+eg:
+
+chmod ugo=r <filename> => changed all permissions to r => converts to -r-r-r--
+chmod u+x <filename>=> add x permission to user
+
+chmod 700 <filename> => rwx to user, everything else=> nothing
+
+chmod 755 <filename> => -rwxr-xr--x   (mostly use this)
+
+chmod 664 <filename> => -rw-rw-r-- 
+
+chmod 660 => -rw-rw-----
+
+chmod 644 => -rw-r-r----
+
+chmod 777 => gives all permissions to all (avoid)
+
+chmod 666 => gives rw permission to all users
+----------------------------------------------------------------------------
+
+Find => check if a file even exists in this directory 
+
+find . -name <filename>
+
+find . -name <filename> => case insensitive
+
+find . -mtime 7 => 7 days old file
+
+find . -size 0 => files with size 0
+
+find . -newer <filename> files newer than given file
+
+------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
