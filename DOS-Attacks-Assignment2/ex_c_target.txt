@@ -1,0 +1,22 @@
+Script started on 2023-03-19 17:37:52-04:00 [TERM="xterm" TTY="/dev/pts/1" COLUMNS="74" LINES="24"]
+ub20-133.228.86.3> exitclearsudo tcpdump -n -i ens192 -w udpflood.pcap '(dst 133.228.86.3 and port 1234)' or '(src 133.228.86.3 and icmp[1]=3)' -vvv
+[sudo] password for crsuser: 
+tcpdump: listening on ens192, link-type EN10MB (Ethernet), capture size 262144 bytes
+Got 0Got 0Got 0Got 0Got 0Got 0Got 0Got 0Got 0Got 20Got 40Got 60Got 80Got 100Got 120Got 140Got 160Got 180Got 200Got 200Got 200^C200 packets captured
+200 packets received by filter
+0 packets dropped by kernel
+ub20-133.228.86.3> sudo tcpdump -n -i ens192 -w udpflood.pcap '(dst 133.228.86.3 and port 1234)' or '(src 133.228.86.3 and icmp[1]=3)' -vvv[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[Ksudo tcpdump -r udpflood.pcap | grep "'[1P'[C'[CU'D'P'[C|e[Kwc -l
+reading from file udpflood.pcap, link-type EN10MB (Ethernet)
+100
+ub20-133.228.86.3> sudo tcpdump -r udpflood.pcap | grep 'UDP'|wc -l[C[1P[1P[1P[1@i[1@c[1@m[1@p
+reading from file udpflood.pcap, link-type EN10MB (Ethernet)
+0
+ub20-133.228.86.3> sudo tcpdump -r udpflood.pcap | grep 'icmp'|wc -l[1PUDP[C[C[C[C[C[C[C[1@icmp[C[C[C[C[C[C[C[1P[1P[1P[1P[1@1[1@2[1@3[1@4[1@ [1@u[1@n[1@r[1@ea'|wc -l [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ch'|wc -l[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C'|wc -l [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc'|wc -l[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ch'|wc -l[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca'|wc -l[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cb'|wc -l[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl'|wc -l[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce'|[1@w[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+reading from file udpflood.pcap, link-type EN10MB (Ethernet)
+100
+ub20-133.228.86.3> exit
+exit
+
+Script done on 2023-03-19 17:39:16-04:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,59 @@
+Script started on 2023-03-19 12:04:31-04:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="61" LINES="24"]
+ub20-133.228.86.3> exittcpdump -r tcpsyn.pcap | grep 'S' |wc -l[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K[K[K[K[Ksudo a[K[K[K[K[K[Kapache2 -v
+Server version: Apache/2.4.41 (Ubuntu)
+Server built:   2023-01-23T18:36:09
+ub20-133.228.86.3> apache2 -v[K[K[K[K[K[K[K[K[K[Ksudo systemctl -is-[K[K[K[Kis-enabled ac[Kpache3.[K[K2.service
+[sudo] password for crsuser: 
+enabled
+ub20-133.228.86.3> sudo systemctl is-enabled apache2.service[1Papache2.service[1Papache2.service[1Papache2.service[1Papache2.service[1Papache2.service[1Ppache2.service[1Papache2.service[1Papache2.service[1Papache2.service[1Papache2.service[1Papache2.service[1Papache2.servicesapache2.servicetapache2.service[Capache2.service[1Ppache2.service[1Papache2.service apache2.service[1Papache2.service[1Papache2.service apache2.servicesapache2.servicetapache2.service[Capache2.servicerapache2.servicetapache2.service apache2.service
+ub20-133.228.86.3> sudo systemctl start apache2.service[1P apache2.service[1P apache2.servicet apache2.serviceu apache2.services apache2.service
+[?1h=[0;1;32m●[0m apache2.service - The Apache HTTP Server[m
+     Loaded: loaded (/lib/systemd/system/apache2.service; en[m[7m>[27m
+     Active: [0;1;32mactive (running)[0m since Sun 2023-03-12 15:53:08 [m[7m>[27m
+       Docs: https://httpd.apache.org/docs/2.4/[m
+    Process: 746 ExecStart=/usr/sbin/apachectl start (code=e[m[7m>[27m
+    Process: 13269 ExecReload=/usr/sbin/apachectl graceful ([m[7m>[27m
+   Main PID: 800 (apache2)[m
+      Tasks: 55 (limit: 4614)[m
+     Memory: 7.4M[m
+     CGroup: /system.slice/apache2.service[m
+             ├─  800 /usr/sbin/apache2 -k start[m
+             ├─13273 /usr/sbin/apache2 -k start[m
+             └─13274 /usr/sbin/apache2 -k start[m
+[m
+Mar 16 00:00:20 crsuser-ub20 systemd[1]: Reloaded The Apache[m[7m>[27m
+Mar 17 00:00:14 crsuser-ub20 systemd[1]: Reloading The Apach[m[7m>[27m
+Mar 17 00:00:14 crsuser-ub20 apachectl[10469]: AH00558: apac[m[7m>[27m
+Mar 17 00:00:14 crsuser-ub20 systemd[1]: Reloaded The Apache[m[7m>[27m
+Mar 18 00:00:08 crsuser-ub20 systemd[1]: Reloading The Apach[m[7m>[27m
+Mar 18 00:00:08 crsuser-ub20 apachectl[11839]: AH00558: apac[m[7m>[27m
+Mar 18 00:00:08 crsuser-ub20 systemd[1]: Reloaded The Apache[m[7m>[27m
+Mar 19 00:00:02 crsuser-ub20 systemd[1]: Reloading The Apach[m[7m>[27m
+Mar 19 00:00:02 crsuser-ub20 apachectl[13272]: AH00558: apac[m[7m>[27m
+[7mlines 1-23[27m[K
+ub20-133.228.86.3> [K[?1l>[Kub20-133.228.86.3> [Kub20-133.228.86.3> sudo ufw allow 80/tcp comment  '[K[K[K ''a'c'c'e'p't' 'A'p'a' [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc'h'e'
+Rules updated
+Rules updated (v6)
+ub20-133.228.86.3> sudo ufw allow 80/tcp comment 'accept Apache'[1P'[1P'[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C' [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P'
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[C[1P[1P[1@4[1@4[1@3[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca'a'[1P'c'c'e'p't' 'c'[1P'H'T' [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CT'P'S' 'c'o'n'n'e'c't'i'o'n's'
+Rules updated
+Rules updated (v6)
+ub20-133.228.86.3> sudo ufw status
+Status: inactive
+ub20-133.228.86.3> sudo ufw enable[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Khostname -I
+133.228.86.3 
+ub20-133.228.86.3> dif[Kg [1@s[1@u[C[1@d[1@o[1@ [C[C[C[C + s h o r t [C m y i p . o p e n d n s . c o m [C @ r e s o l v e  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr 1 . o p e n d n s . c o m 
+dig: couldn't get address for 'resolver1.opendns.com': failure
+ub20-133.228.86.3> curl -I http:\\[K[K\\[K[K//133.228.86.3
+
+Command 'curl' not found, but can be installed with:
+
+sudo snap install curl  # version 7.87.0, or
+sudo apt  install curl  # version 7.68.0-1ubuntu2.16
+
+See 'snap info curl' for additional versions.
+
+ub20-133.228.86.3> curl -I http://133.228.86.3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K86.3[K[K[K[Kei[Kxit
+exit
+
+Script done on 2023-03-19 12:17:57-04:00 [COMMAND_EXIT_CODE="127"]

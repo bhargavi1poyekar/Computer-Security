@@ -1,0 +1,787 @@
+Script started on 2023-03-19 19:52:49-04:00 [TERM="xterm" TTY="/dev/pts/3" COLUMNS="80" LINES="24"]
+[?2004hkali-133.228.86.1> exitslowhttptest -c 500 -H -i 10 -r 200 -t GET -u http://133.228.86.3[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -c 500 -H -i 10 -r 200 -t GET -u http://133.228.86.3[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C00 -H -i 10 -r 200 -t GET -u http://133.228.86[1P.3[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C100 -H -i 10 -r 200 -t GET -u http://133.228.86.3[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0 -H -i 10 -r 200 -t GET -u http://133.228.86.3[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -t GET -u http://133.228.8[1P6.3[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -t GET -u http://133.228.86[1P.3[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C5 -t GET -u http://133.228.86.3[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004lSun Mar 19 19:53:08 2023:[H[2JSun Mar 19 19:53:08 2023:
+	[1;36mslowhttptest version 1.8.2
+ - https://github.com/shekyan/slowhttptest -
+[0;34mtest type:[1;34m                        SLOW HEADERS
+[0;34mnumber of connections:[1;34m            1000
+[0;34mURL:[1;34m                              http://133.228.86.3/
+[0;34mverb:[1;34m                             GET
+[0;34mcookie:[1;34m                           
+[0;34mContent-Length header value:[1;34m      4096
+[0;34mfollow up data max size:[1;34m          68
+[0;34minterval between follow up data:[1;34m  10 seconds
+[0;34mconnections per seconds:[1;34m          25
+[0;34mprobe connection timeout:[1;34m         5 seconds
+[0;34mtest duration:[1;34m                    240 seconds
+[0;34musing proxy:[1;34m                      no proxy 
+
+[0mSun Mar 19 19:53:08 2023:[1;32m
+slow HTTP test status on [0;32m0[1;32mth second:
+
+[1;32minitializing:[1;32m        0
+[1;32mpending:     [1;32m        1
+[1;32mconnected:   [1;32m        0
+[1;32merror:       [1;32m        0
+[1;32mclosed:      [1;32m        0
+[1;32mservice available:[1;32m   [1;32mYES[0m
+[0mSun Mar 19 19:53:13 2023:[H[2JSun Mar 19 19:53:13 2023:
+	[1;36mslowhttptest version 1.8.2
+ - https://github.com/shekyan/slowhttptest -
+[0;34mtest type:[1;34m                        SLOW HEADERS
+[0;34mnumber of connections:[1;34m            1000
+[0;34mURL:[1;34m                              http://133.228.86.3/
+[0;34mverb:[1;34m                             GET
+[0;34mcookie:[1;34m                           
+[0;34mContent-Length header value:[1;34m      4096
+[0;34mfollow up data max size:[1;34m          68
+[0;34minterval between follow up data:[1;34m  10 seconds
+[0;34mconnections per seconds:[1;34m          25
+[0;34mprobe connection timeout:[1;34m         5 seconds
+[0;34mtest duration:[1;34m                    240 seconds
+[0;34musing proxy:[1;34m                      no proxy 
+
+[0mSun Mar 19 19:53:13 2023:[1;32m
+slow HTTP test status on [0;32m5[1;32mth second:
+
+[1;32minitializing:[1;32m        0
+[1;32mpending:     [1;32m        2
+[1;32mconnected:   [1;32m        124
+[1;32merror:       [1;32m        0
+[1;32mclosed:      [1;32m        0
+[1;32mservice available:[1;32m   [1;32mYES[0m
+[0mSun Mar 19 19:53:18 2023:[H[2JSun Mar 19 19:53:18 2023:
+	[1;36mslowhttptest version 1.8.2
+ - https://github.com/shekyan/slowhttptest -
+[0;34mtest type:[1;34m                        SLOW HEADERS
+[0;34mnumber of connections:[1;34m            1000
+[0;34mURL:[1;34m                              http://133.228.86.3/
+[0;34mverb:[1;34m                             GET
+[0;34mcookie:[1;34m                           
+[0;34mContent-Length header value:[1;34m      4096
+[0;34mfollow up data max size:[1;34m          68
+[0;34minterval between follow up data:[1;34m  10 seconds
+[0;34mconnections per seconds:[1;34m          25
+[0;34mprobe connection timeout:[1;34m         5 seconds
+[0;34mtest duration:[1;34m                    240 seconds
+[0;34musing proxy:[1;34m                      no proxy 
+
+[0mSun Mar 19 19:53:18 2023:[1;32m
+slow HTTP test status on [0;32m10[1;32mth second:
+
+[1;32minitializing:[1;32m        0
+[1;32mpending:     [1;32m        2
+[1;32mconnected:   [1;32m        248
+[1;32merror:       [1;32m        0
+[1;32mclosed:      [1;32m        0
+[1;32mservice available:[1;32m   [1;32mYES[0m
+[0mSun Mar 19 19:53:23 2023:[H[2JSun Mar 19 19:53:23 2023:
+	[1;36mslowhttptest version 1.8.2
+ - https://github.com/shekyan/slowhttptest -
+[0;34mtest type:[1;34m                        SLOW HEADERS
+[0;34mnumber of connections:[1;34m            1000
+[0;34mURL:[1;34m                              http://133.228.86.3/
+[0;34mverb:[1;34m                             GET
+[0;34mcookie:[1;34m                           
+[0;34mContent-Length header value:[1;34m      4096
+[0;34mfollow up data max size:[1;34m          68
+[0;34minterval between follow up data:[1;34m  10 seconds
+[0;34mconnections per seconds:[1;34m          25
+[0;34mprobe connection timeout:[1;34m         5 seconds
+[0;34mtest duration:[1;34m                    240 seconds
+[0;34musing proxy:[1;34m                      no proxy 
+
+[0mSun Mar 19 19:53:23 2023:[1;32m
+slow HTTP test status on [0;32m15[1;32mth second:
+
+[1;32minitializing:[1;32m        0
+[1;32mpending:     [1;32m        1
+[1;32mconnected:   [1;32m        372
+[1;32merror:       [1;32m        0
+[1;32mclosed:      [1;32m        0
+[1;32mservice available:[1;32m   [1;31mNO[0m
+[0mSun Mar 19 19:53:28 2023:[H[2JSun Mar 19 19:53:28 2023:
+	[1;36mslowhttptest version 1.8.2
+ - https://github.com/shekyan/slowhttptest -
+[0;34mtest type:[1;34m                        SLOW HEADERS
+[0;34mnumber of connections:[1;34m            1000
+[0;34mURL:[1;34m                              http://133.228.86.3/
+[0;34mverb:[1;34m                             GET
+[0;34mcookie:[1;34m                           
+[0;34mContent-Length header value:[1;34m      4096
+[0;34mfollow up data max size:[1;34m          68
+[0;34minterval between follow up data:[1;34m  10 seconds
+[0;34mconnections per seconds:[1;34m          25
+[0;34mprobe connection timeout:[1;34m         5 seconds
+[0;34mtest duration:[1;34m                    240 seconds
+[0;34musing proxy:[1;34m                      no proxy 
+
+[0mSun Mar 19 19:53:28 2023:[1;32m
+slow HTTP test status on [0;32m20[1;32mth second:
+
+[1;32minitializing:[1;32m        0
+[1;32mpending:     [1;32m        1
+[1;32mconnected:   [1;32m        495
+[1;32merror:       [1;32m        0
+[1;32mclosed:      [1;32m        0
+[1;32mservice available:[1;32m   [1;31mNO[0m
+[0mSun Mar 19 19:53:33 2023:[H[2JSun Mar 19 19:53:33 2023:
+	[1;36mslowhttptest version 1.8.2
+ - https://github.com/shekyan/slowhttptest -
+[0;34mtest type:[1;34m                        SLOW HEADERS
+[0;34mnumber of connections:[1;34m            1000
+[0;34mURL:[1;34m                              http://133.228.86.3/
+[0;34mverb:[1;34m                             GET
+[0;34mcookie:[1;34m                           
+[0;34mContent-Length header value:[1;34m      4096
+[0;34mfollow up data max size:[1;34m          68
+[0;34minterval between follow up data:[1;34m  10 seconds
+[0;34mconnections per seconds:[1;34m          25
+[0;34mprobe connection timeout:[1;34m         5 seconds
+[0;34mtest duration:[1;34m                    240 seconds
+[0;34musing proxy:[1;34m                      no proxy 
+
+[0mSun Mar 19 19:53:33 2023:[1;32m
+slow HTTP test status on [0;32m25[1;32mth second:
+
+[1;32minitializing:[1;32m        0
+[1;32mpending:     [1;32m        1
+[1;32mconnected:   [1;32m        510
+[1;32merror:       [1;32m        0
+[1;32mclosed:      [1;32m        108
+[1;32mservice available:[1;32m   [1;31mNO[0m
+[0mSun Mar 19 19:53:38 2023:[H[2JSun Mar 19 19:53:38 2023:
+	[1;36mslowhttptest version 1.8.2
+ - https://github.com/shekyan/slowhttptest -
+[0;34mtest type:[1;34m                        SLOW HEADERS
+[0;34mnumber of connections:[1;34m            1000
+[0;34mURL:[1;34m                              http://133.228.86.3/
+[0;34mverb:[1;34m                             GET
+[0;34mcookie:[1;34m                           
+[0;34mContent-Length header value:[1;34m      4096
+[0;34mfollow up data max size:[1;34m          68
+[0;34minterval between follow up data:[1;34m  10 seconds
+[0;34mconnections per seconds:[1;34m          25
+[0;34mprobe connection timeout:[1;34m         5 seconds
+[0;34mtest duration:[1;34m                    240 seconds
+[0;34musing proxy:[1;34m                      no proxy 
+
+[0mSun Mar 19 19:53:38 2023:[1;32m
+slow HTTP test status on [0;32m30[1;32mth second:
+
+[1;32minitializing:[1;32m        0
+[1;32mpending:     [1;32m        1
+[1;32mconnected:   [1;32m        591
+[1;32merror:       [1;32m        0
+[1;32mclosed:      [1;32m        150
+[1;32mservice available:[1;32m   [1;31mNO[0m
+[0mSun Mar 19 19:53:43 2023:[H[2JSun Mar 19 19:53:43 2023:
+	[1;36mslowhttptest version 1.8.2
+ - https://github.com/shekyan/slowhttptest -
+[0;34mtest type:[1;34m                        SLOW HEADERS
+[0;34mnumber of connections:[1;34m            1000
+[0;34mURL:[1;34m                              http://133.228.86.3/
+[0;34mverb:[1;34m                             GET
+[0;34mcookie:[1;34m                           
+[0;34mContent-Length header value:[1;34m      4096
+[0;34mfollow up data max size:[1;34m          68
+[0;34minterval between follow up data:[1;34m  10 seconds
+[0;34mconnections per seconds:[1;34m          25
+[0;34mprobe connection timeout:[1;34m         5 seconds
+[0;34mtest duration:[1;34m                    240 seconds
+[0;34musing proxy:[1;34m                      no proxy 
+
+[0mSun Mar 19 19:53:43 2023:[1;32m
+slow HTTP test status on [0;32m35[1;32mth second:
+
+[1;32minitializing:[1;32m        0
+[1;32mpending:     [1;32m        57
+[1;32mconnected:   [1;32m        658
+[1;32merror:       [1;32m        0
+[1;32mclosed:      [1;32m        150
+[1;32mservice available:[1;32m   [1;31mNO[0m
+[0mSun Mar 19 19:53:48 2023:[H[2JSun Mar 19 19:53:48 2023:
+	[1;36mslowhttptest version 1.8.2
+ - https://github.com/shekyan/slowhttptest -
+[0;34mtest type:[1;34m                        SLOW HEADERS
+[0;34mnumber of connections:[1;34m            1000
+[0;34mURL:[1;34m                              http://133.228.86.3/
+[0;34mverb:[1;34m                             GET
+[0;34mcookie:[1;34m                           
+[0;34mContent-Length header value:[1;34m      4096
+[0;34mfollow up data max size:[1;34m          68
+[0;34minterval between follow up data:[1;34m  10 seconds
+[0;34mconnections per seconds:[1;34m          25
+[0;34mprobe connection timeout:[1;34m         5 seconds
+[0;34mtest duration:[1;34m                    240 seconds
+[0;34musing proxy:[1;34m                      no proxy 
+
+[0mSun Mar 19 19:53:48 2023:[1;32m
+slow HTTP test status on [0;32m40[1;32mth second:
+
+[1;32minitializing:[1;32m        0
+[1;32mpending:     [1;32m        180
+[1;32mconnected:   [1;32m        658
+[1;32merror:       [1;32m        0
+[1;32mclosed:      [1;32m        150
+[1;32mservice available:[1;32m   [1;31mNO[0m
+[0mSun Mar 19 19:53:53 2023:[H[2JSun Mar 19 19:53:53 2023:
+	[1;36mslowhttptest version 1.8.2
+ - https://github.com/shekyan/slowhttptest -
+[0;34mtest type:[1;34m                        SLOW HEADERS
+[0;34mnumber of connections:[1;34m            1000
+[0;34mURL:[1;34m                              http://133.228.86.3/
+[0;34mverb:[1;34m                             GET
+[0;34mcookie:[1;34m                           
+[0;34mContent-Length header value:[1;34m      4096
+[0;34mfollow up data max size:[1;34m          68
+[0;34minterval between follow up data:[1;34m  10 seconds
+[0;34mconnections per seconds:[1;34m          25
+[0;34mprobe connection timeout:[1;34m         5 seconds
+[0;34mtest duration:[1;34m                    240 seconds
+[0;34musing proxy:[1;34m                      no proxy 
+
+[0mSun Mar 19 19:53:53 2023:[1;32m
+slow HTTP test status on [0;32m45[1;32mth second:
+
+[1;32minitializing:[1;32m        0
+[1;32mpending:     [1;32m        110
+[1;32mconnected:   [1;32m        654
+[1;32merror:       [1;32m        0
+[1;32mclosed:      [1;32m        236
+[1;32mservice available:[1;32m   [1;31mNO[0m
+[0mSun Mar 19 19:53:58 2023:[H[2JSun Mar 19 19:53:58 2023:
+	[1;36mslowhttptest version 1.8.2
+ - https://github.com/shekyan/slowhttptest -
+[0;34mtest type:[1;34m                        SLOW HEADERS
+[0;34mnumber of connections:[1;34m            1000
+[0;34mURL:[1;34m                              http://133.228.86.3/
+[0;34mverb:[1;34m                             GET
+[0;34mcookie:[1;34m                           
+[0;34mContent-Length header value:[1;34m      4096
+[0;34mfollow up data max size:[1;34m          68
+[0;34minterval between follow up data:[1;34m  10 seconds
+[0;34mconnections per seconds:[1;34m          25
+[0;34mprobe connection timeout:[1;34m         5 seconds
+[0;34mtest duration:[1;34m                    240 seconds
+[0;34musing proxy:[1;34m                      no proxy 
+
+[0mSun Mar 19 19:53:58 2023:[1;32m
+slow HTTP test status on [0;32m50[1;32mth second:
+
+[1;32minitializing:[1;32m        0
+[1;32mpending:     [1;32m        38
+[1;32mconnected:   [1;32m        662
+[1;32merror:       [1;32m        0
+[1;32mclosed:      [1;32m        300
+[1;32mservice available:[1;32m   [1;31mNO[0m
+[0mSun Mar 19 19:54:03 2023:[H[2JSun Mar 19 19:54:03 2023:
+	[1;36mslowhttptest version 1.8.2
+ - https://github.com/shekyan/slowhttptest -
+[0;34mtest type:[1;34m                        SLOW HEADERS
+[0;34mnumber of connections:[1;34m            1000
+[0;34mURL:[1;34m                              http://133.228.86.3/
+[0;34mverb:[1;34m                             GET
+[0;34mcookie:[1;34m                           
+[0;34mContent-Length header value:[1;34m      4096
+[0;34mfollow up data max size:[1;34m          68
+[0;34minterval between follow up data:[1;34m  10 seconds
+[0;34mconnections per seconds:[1;34m          25
+[0;34mprobe connection timeout:[1;34m         5 seconds
+[0;34mtest duration:[1;34m                    240 seconds
+[0;34musing proxy:[1;34m                      no proxy 
+
+[0mSun Mar 19 19:54:03 2023:[1;32m
+slow HTTP test status on [0;32m55[1;32mth second:
+
+[1;32minitializing:[1;32m        0
+[1;32mpending:     [1;32m        38
+[1;32mconnected:   [1;32m        662
+[1;32merror:       [1;32m        0
+[1;32mclosed:      [1;32m        300
+[1;32mservice available:[1;32m   [1;31mNO[0m
+[0mSun Mar 19 19:54:08 2023:[H[2JSun Mar 19 19:54:08 2023:
+	[1;36mslowhttptest version 1.8.2
+ - https://github.com/shekyan/slowhttptest -
+[0;34mtest type:[1;34m                        SLOW HEADERS
+[0;34mnumber of connections:[1;34m            1000
+[0;34mURL:[1;34m                              http://133.228.86.3/
+[0;34mverb:[1;34m                             GET
+[0;34mcookie:[1;34m                           
+[0;34mContent-Length header value:[1;34m      4096
+[0;34mfollow up data max size:[1;34m          68
+[0;34minterval between follow up data:[1;34m  10 seconds
+[0;34mconnections per seconds:[1;34m          25
+[0;34mprobe connection timeout:[1;34m         5 seconds
+[0;34mtest duration:[1;34m                    240 seconds
+[0;34musing proxy:[1;34m                      no proxy 
+
+[0mSun Mar 19 19:54:08 2023:[1;32m
+slow HTTP test status on [0;32m60[1;32mth second:
+
+[1;32minitializing:[1;32m        0
+[1;32mpending:     [1;32m        38
+[1;32mconnected:   [1;32m        662
+[1;32merror:       [1;32m        0
+[1;32mclosed:      [1;32m        300
+[1;32mservice available:[1;32m   [1;31mNO[0m
+[0mSun Mar 19 19:54:13 2023:[H[2JSun Mar 19 19:54:13 2023:
+	[1;36mslowhttptest version 1.8.2
+ - https://github.com/shekyan/slowhttptest -
+[0;34mtest type:[1;34m                        SLOW HEADERS
+[0;34mnumber of connections:[1;34m            1000
+[0;34mURL:[1;34m                              http://133.228.86.3/
+[0;34mverb:[1;34m                             GET
+[0;34mcookie:[1;34m                           
+[0;34mContent-Length header value:[1;34m      4096
+[0;34mfollow up data max size:[1;34m          68
+[0;34minterval between follow up data:[1;34m  10 seconds
+[0;34mconnections per seconds:[1;34m          25
+[0;34mprobe connection timeout:[1;34m         5 seconds
+[0;34mtest duration:[1;34m                    240 seconds
+[0;34musing proxy:[1;34m                      no proxy 
+
+[0mSun Mar 19 19:54:13 2023:[1;32m
+slow HTTP test status on [0;32m65[1;32mth second:
+
+[1;32minitializing:[1;32m        0
+[1;32mpending:     [1;32m        38
+[1;32mconnected:   [1;32m        595
+[1;32merror:       [1;32m        0
+[1;32mclosed:      [1;32m        367
+[1;32mservice available:[1;32m   [1;31mNO[0m
+[0mSun Mar 19 19:54:18 2023:[H[2JSun Mar 19 19:54:18 2023:
+	[1;36mslowhttptest version 1.8.2
+ - https://github.com/shekyan/slowhttptest -
+[0;34mtest type:[1;34m                        SLOW HEADERS
+[0;34mnumber of connections:[1;34m            1000
+[0;34mURL:[1;34m                              http://133.228.86.3/
+[0;34mverb:[1;34m                             GET
+[0;34mcookie:[1;34m                           
+[0;34mContent-Length header value:[1;34m      4096
+[0;34mfollow up data max size:[1;34m          68
+[0;34minterval between follow up data:[1;34m  10 seconds
+[0;34mconnections per seconds:[1;34m          25
+[0;34mprobe connection timeout:[1;34m         5 seconds
+[0;34mtest duration:[1;34m                    240 seconds
+[0;34musing proxy:[1;34m                      no proxy 
+
+[0mSun Mar 19 19:54:18 2023:[1;32m
+slow HTTP test status on [0;32m70[1;32mth second:
+
+[1;32minitializing:[1;32m        0
+[1;32mpending:     [1;32m        0
+[1;32mconnected:   [1;32m        550
+[1;32merror:       [1;32m        0
+[1;32mclosed:      [1;32m        450
+[1;32mservice available:[1;32m   [1;31mNO[0m
+[0mSun Mar 19 19:54:23 2023:[H[2JSun Mar 19 19:54:23 2023:
+	[1;36mslowhttptest version 1.8.2
+ - https://github.com/shekyan/slowhttptest -
+[0;34mtest type:[1;34m                        SLOW HEADERS
+[0;34mnumber of connections:[1;34m            1000
+[0;34mURL:[1;34m                              http://133.228.86.3/
+[0;34mverb:[1;34m                             GET
+[0;34mcookie:[1;34m                           
+[0;34mContent-Length header value:[1;34m      4096
+[0;34mfollow up data max size:[1;34m          68
+[0;34minterval between follow up data:[1;34m  10 seconds
+[0;34mconnections per seconds:[1;34m          25
+[0;34mprobe connection timeout:[1;34m         5 seconds
+[0;34mtest duration:[1;34m                    240 seconds
+[0;34musing proxy:[1;34m                      no proxy 
+
+[0mSun Mar 19 19:54:23 2023:[1;32m
+slow HTTP test status on [0;32m75[1;32mth second:
+
+[1;32minitializing:[1;32m        0
+[1;32mpending:     [1;32m        0
+[1;32mconnected:   [1;32m        550
+[1;32merror:       [1;32m        0
+[1;32mclosed:      [1;32m        450
+[1;32mservice available:[1;32m   [1;31mNO[0m
+[0mSun Mar 19 19:54:28 2023:[H[2JSun Mar 19 19:54:28 2023:
+	[1;36mslowhttptest version 1.8.2
+ - https://github.com/shekyan/slowhttptest -
+[0;34mtest type:[1;34m                        SLOW HEADERS
+[0;34mnumber of connections:[1;34m            1000
+[0;34mURL:[1;34m                              http://133.228.86.3/
+[0;34mverb:[1;34m                             GET
+[0;34mcookie:[1;34m                           
+[0;34mContent-Length header value:[1;34m      4096
+[0;34mfollow up data max size:[1;34m          68
+[0;34minterval between follow up data:[1;34m  10 seconds
+[0;34mconnections per seconds:[1;34m          25
+[0;34mprobe connection timeout:[1;34m         5 seconds
+[0;34mtest duration:[1;34m                    240 seconds
+[0;34musing proxy:[1;34m                      no proxy 
+
+[0mSun Mar 19 19:54:28 2023:[1;32m
+slow HTTP test status on [0;32m80[1;32mth second:
+
+[1;32minitializing:[1;32m        0
+[1;32mpending:     [1;32m        0
+[1;32mconnected:   [1;32m        550
+[1;32merror:       [1;32m        0
+[1;32mclosed:      [1;32m        450
+[1;32mservice available:[1;32m   [1;31mNO[0m
+[0mSun Mar 19 19:54:33 2023:[H[2JSun Mar 19 19:54:33 2023:
+	[1;36mslowhttptest version 1.8.2
+ - https://github.com/shekyan/slowhttptest -
+[0;34mtest type:[1;34m                        SLOW HEADERS
+[0;34mnumber of connections:[1;34m            1000
+[0;34mURL:[1;34m                              http://133.228.86.3/
+[0;34mverb:[1;34m                             GET
+[0;34mcookie:[1;34m                           
+[0;34mContent-Length header value:[1;34m      4096
+[0;34mfollow up data max size:[1;34m          68
+[0;34minterval between follow up data:[1;34m  10 seconds
+[0;34mconnections per seconds:[1;34m          25
+[0;34mprobe connection timeout:[1;34m         5 seconds
+[0;34mtest duration:[1;34m                    240 seconds
+[0;34musing proxy:[1;34m                      no proxy 
+
+[0mSun Mar 19 19:54:33 2023:[1;32m
+slow HTTP test status on [0;32m85[1;32mth second:
+
+[1;32minitializing:[1;32m        0
+[1;32mpending:     [1;32m        0
+[1;32mconnected:   [1;32m        507
+[1;32merror:       [1;32m        0
+[1;32mclosed:      [1;32m        493
+[1;32mservice available:[1;32m   [1;31mNO[0m
+[0mSun Mar 19 19:54:38 2023:[H[2JSun Mar 19 19:54:38 2023:
+	[1;36mslowhttptest version 1.8.2
+ - https://github.com/shekyan/slowhttptest -
+[0;34mtest type:[1;34m                        SLOW HEADERS
+[0;34mnumber of connections:[1;34m            1000
+[0;34mURL:[1;34m                              http://133.228.86.3/
+[0;34mverb:[1;34m                             GET
+[0;34mcookie:[1;34m                           
+[0;34mContent-Length header value:[1;34m      4096
+[0;34mfollow up data max size:[1;34m          68
+[0;34minterval between follow up data:[1;34m  10 seconds
+[0;34mconnections per seconds:[1;34m          25
+[0;34mprobe connection timeout:[1;34m         5 seconds
+[0;34mtest duration:[1;34m                    240 seconds
+[0;34musing proxy:[1;34m                      no proxy 
+
+[0mSun Mar 19 19:54:38 2023:[1;32m
+slow HTTP test status on [0;32m90[1;32mth second:
+
+[1;32minitializing:[1;32m        0
+[1;32mpending:     [1;32m        0
+[1;32mconnected:   [1;32m        401
+[1;32merror:       [1;32m        0
+[1;32mclosed:      [1;32m        599
+[1;32mservice available:[1;32m   [1;31mNO[0m
+[0mSun Mar 19 19:54:43 2023:[H[2JSun Mar 19 19:54:43 2023:
+	[1;36mslowhttptest version 1.8.2
+ - https://github.com/shekyan/slowhttptest -
+[0;34mtest type:[1;34m                        SLOW HEADERS
+[0;34mnumber of connections:[1;34m            1000
+[0;34mURL:[1;34m                              http://133.228.86.3/
+[0;34mverb:[1;34m                             GET
+[0;34mcookie:[1;34m                           
+[0;34mContent-Length header value:[1;34m      4096
+[0;34mfollow up data max size:[1;34m          68
+[0;34minterval between follow up data:[1;34m  10 seconds
+[0;34mconnections per seconds:[1;34m          25
+[0;34mprobe connection timeout:[1;34m         5 seconds
+[0;34mtest duration:[1;34m                    240 seconds
+[0;34musing proxy:[1;34m                      no proxy 
+
+[0mSun Mar 19 19:54:43 2023:[1;32m
+slow HTTP test status on [0;32m95[1;32mth second:
+
+[1;32minitializing:[1;32m        0
+[1;32mpending:     [1;32m        0
+[1;32mconnected:   [1;32m        400
+[1;32merror:       [1;32m        0
+[1;32mclosed:      [1;32m        600
+[1;32mservice available:[1;32m   [1;31mNO[0m
+[0mSun Mar 19 19:54:48 2023:[H[2JSun Mar 19 19:54:48 2023:
+	[1;36mslowhttptest version 1.8.2
+ - https://github.com/shekyan/slowhttptest -
+[0;34mtest type:[1;34m                        SLOW HEADERS
+[0;34mnumber of connections:[1;34m            1000
+[0;34mURL:[1;34m                              http://133.228.86.3/
+[0;34mverb:[1;34m                             GET
+[0;34mcookie:[1;34m                           
+[0;34mContent-Length header value:[1;34m      4096
+[0;34mfollow up data max size:[1;34m          68
+[0;34minterval between follow up data:[1;34m  10 seconds
+[0;34mconnections per seconds:[1;34m          25
+[0;34mprobe connection timeout:[1;34m         5 seconds
+[0;34mtest duration:[1;34m                    240 seconds
+[0;34musing proxy:[1;34m                      no proxy 
+
+[0mSun Mar 19 19:54:48 2023:[1;32m
+slow HTTP test status on [0;32m100[1;32mth second:
+
+[1;32minitializing:[1;32m        0
+[1;32mpending:     [1;32m        0
+[1;32mconnected:   [1;32m        400
+[1;32merror:       [1;32m        0
+[1;32mclosed:      [1;32m        600
+[1;32mservice available:[1;32m   [1;31mNO[0m
+[0mSun Mar 19 19:54:53 2023:[H[2JSun Mar 19 19:54:53 2023:
+	[1;36mslowhttptest version 1.8.2
+ - https://github.com/shekyan/slowhttptest -
+[0;34mtest type:[1;34m                        SLOW HEADERS
+[0;34mnumber of connections:[1;34m            1000
+[0;34mURL:[1;34m                              http://133.228.86.3/
+[0;34mverb:[1;34m                             GET
+[0;34mcookie:[1;34m                           
+[0;34mContent-Length header value:[1;34m      4096
+[0;34mfollow up data max size:[1;34m          68
+[0;34minterval between follow up data:[1;34m  10 seconds
+[0;34mconnections per seconds:[1;34m          25
+[0;34mprobe connection timeout:[1;34m         5 seconds
+[0;34mtest duration:[1;34m                    240 seconds
+[0;34musing proxy:[1;34m                      no proxy 
+
+[0mSun Mar 19 19:54:53 2023:[1;32m
+slow HTTP test status on [0;32m105[1;32mth second:
+
+[1;32minitializing:[1;32m        0
+[1;32mpending:     [1;32m        0
+[1;32mconnected:   [1;32m        390
+[1;32merror:       [1;32m        0
+[1;32mclosed:      [1;32m        610
+[1;32mservice available:[1;32m   [1;31mNO[0m
+[0mSun Mar 19 19:54:58 2023:[H[2JSun Mar 19 19:54:58 2023:
+	[1;36mslowhttptest version 1.8.2
+ - https://github.com/shekyan/slowhttptest -
+[0;34mtest type:[1;34m                        SLOW HEADERS
+[0;34mnumber of connections:[1;34m            1000
+[0;34mURL:[1;34m                              http://133.228.86.3/
+[0;34mverb:[1;34m                             GET
+[0;34mcookie:[1;34m                           
+[0;34mContent-Length header value:[1;34m      4096
+[0;34mfollow up data max size:[1;34m          68
+[0;34minterval between follow up data:[1;34m  10 seconds
+[0;34mconnections per seconds:[1;34m          25
+[0;34mprobe connection timeout:[1;34m         5 seconds
+[0;34mtest duration:[1;34m                    240 seconds
+[0;34musing proxy:[1;34m                      no proxy 
+
+[0mSun Mar 19 19:54:58 2023:[1;32m
+slow HTTP test status on [0;32m110[1;32mth second:
+
+[1;32minitializing:[1;32m        0
+[1;32mpending:     [1;32m        0
+[1;32mconnected:   [1;32m        257
+[1;32merror:       [1;32m        0
+[1;32mclosed:      [1;32m        743
+[1;32mservice available:[1;32m   [1;31mNO[0m
+[0mSun Mar 19 19:55:03 2023:[H[2JSun Mar 19 19:55:03 2023:
+	[1;36mslowhttptest version 1.8.2
+ - https://github.com/shekyan/slowhttptest -
+[0;34mtest type:[1;34m                        SLOW HEADERS
+[0;34mnumber of connections:[1;34m            1000
+[0;34mURL:[1;34m                              http://133.228.86.3/
+[0;34mverb:[1;34m                             GET
+[0;34mcookie:[1;34m                           
+[0;34mContent-Length header value:[1;34m      4096
+[0;34mfollow up data max size:[1;34m          68
+[0;34minterval between follow up data:[1;34m  10 seconds
+[0;34mconnections per seconds:[1;34m          25
+[0;34mprobe connection timeout:[1;34m         5 seconds
+[0;34mtest duration:[1;34m                    240 seconds
+[0;34musing proxy:[1;34m                      no proxy 
+
+[0mSun Mar 19 19:55:03 2023:[1;32m
+slow HTTP test status on [0;32m115[1;32mth second:
+
+[1;32minitializing:[1;32m        0
+[1;32mpending:     [1;32m        0
+[1;32mconnected:   [1;32m        250
+[1;32merror:       [1;32m        0
+[1;32mclosed:      [1;32m        750
+[1;32mservice available:[1;32m   [1;31mNO[0m
+[0mSun Mar 19 19:55:08 2023:[H[2JSun Mar 19 19:55:08 2023:
+	[1;36mslowhttptest version 1.8.2
+ - https://github.com/shekyan/slowhttptest -
+[0;34mtest type:[1;34m                        SLOW HEADERS
+[0;34mnumber of connections:[1;34m            1000
+[0;34mURL:[1;34m                              http://133.228.86.3/
+[0;34mverb:[1;34m                             GET
+[0;34mcookie:[1;34m                           
+[0;34mContent-Length header value:[1;34m      4096
+[0;34mfollow up data max size:[1;34m          68
+[0;34minterval between follow up data:[1;34m  10 seconds
+[0;34mconnections per seconds:[1;34m          25
+[0;34mprobe connection timeout:[1;34m         5 seconds
+[0;34mtest duration:[1;34m                    240 seconds
+[0;34musing proxy:[1;34m                      no proxy 
+
+[0mSun Mar 19 19:55:08 2023:[1;32m
+slow HTTP test status on [0;32m120[1;32mth second:
+
+[1;32minitializing:[1;32m        0
+[1;32mpending:     [1;32m        0
+[1;32mconnected:   [1;32m        250
+[1;32merror:       [1;32m        0
+[1;32mclosed:      [1;32m        750
+[1;32mservice available:[1;32m   [1;31mNO[0m
+[0mSun Mar 19 19:55:13 2023:[H[2JSun Mar 19 19:55:13 2023:
+	[1;36mslowhttptest version 1.8.2
+ - https://github.com/shekyan/slowhttptest -
+[0;34mtest type:[1;34m                        SLOW HEADERS
+[0;34mnumber of connections:[1;34m            1000
+[0;34mURL:[1;34m                              http://133.228.86.3/
+[0;34mverb:[1;34m                             GET
+[0;34mcookie:[1;34m                           
+[0;34mContent-Length header value:[1;34m      4096
+[0;34mfollow up data max size:[1;34m          68
+[0;34minterval between follow up data:[1;34m  10 seconds
+[0;34mconnections per seconds:[1;34m          25
+[0;34mprobe connection timeout:[1;34m         5 seconds
+[0;34mtest duration:[1;34m                    240 seconds
+[0;34musing proxy:[1;34m                      no proxy 
+
+[0mSun Mar 19 19:55:13 2023:[1;32m
+slow HTTP test status on [0;32m125[1;32mth second:
+
+[1;32minitializing:[1;32m        0
+[1;32mpending:     [1;32m        0
+[1;32mconnected:   [1;32m        250
+[1;32merror:       [1;32m        0
+[1;32mclosed:      [1;32m        750
+[1;32mservice available:[1;32m   [1;31mNO[0m
+[0mSun Mar 19 19:55:18 2023:[H[2JSun Mar 19 19:55:18 2023:
+	[1;36mslowhttptest version 1.8.2
+ - https://github.com/shekyan/slowhttptest -
+[0;34mtest type:[1;34m                        SLOW HEADERS
+[0;34mnumber of connections:[1;34m            1000
+[0;34mURL:[1;34m                              http://133.228.86.3/
+[0;34mverb:[1;34m                             GET
+[0;34mcookie:[1;34m                           
+[0;34mContent-Length header value:[1;34m      4096
+[0;34mfollow up data max size:[1;34m          68
+[0;34minterval between follow up data:[1;34m  10 seconds
+[0;34mconnections per seconds:[1;34m          25
+[0;34mprobe connection timeout:[1;34m         5 seconds
+[0;34mtest duration:[1;34m                    240 seconds
+[0;34musing proxy:[1;34m                      no proxy 
+
+[0mSun Mar 19 19:55:18 2023:[1;32m
+slow HTTP test status on [0;32m130[1;32mth second:
+
+[1;32minitializing:[1;32m        0
+[1;32mpending:     [1;32m        0
+[1;32mconnected:   [1;32m        140
+[1;32merror:       [1;32m        0
+[1;32mclosed:      [1;32m        860
+[1;32mservice available:[1;32m   [1;32mYES[0m
+[0mSun Mar 19 19:55:23 2023:[H[2JSun Mar 19 19:55:23 2023:
+	[1;36mslowhttptest version 1.8.2
+ - https://github.com/shekyan/slowhttptest -
+[0;34mtest type:[1;34m                        SLOW HEADERS
+[0;34mnumber of connections:[1;34m            1000
+[0;34mURL:[1;34m                              http://133.228.86.3/
+[0;34mverb:[1;34m                             GET
+[0;34mcookie:[1;34m                           
+[0;34mContent-Length header value:[1;34m      4096
+[0;34mfollow up data max size:[1;34m          68
+[0;34minterval between follow up data:[1;34m  10 seconds
+[0;34mconnections per seconds:[1;34m          25
+[0;34mprobe connection timeout:[1;34m         5 seconds
+[0;34mtest duration:[1;34m                    240 seconds
+[0;34musing proxy:[1;34m                      no proxy 
+
+[0mSun Mar 19 19:55:23 2023:[1;32m
+slow HTTP test status on [0;32m135[1;32mth second:
+
+[1;32minitializing:[1;32m        0
+[1;32mpending:     [1;32m        0
+[1;32mconnected:   [1;32m        100
+[1;32merror:       [1;32m        0
+[1;32mclosed:      [1;32m        900
+[1;32mservice available:[1;32m   [1;32mYES[0m
+[0mSun Mar 19 19:55:28 2023:[H[2JSun Mar 19 19:55:28 2023:
+	[1;36mslowhttptest version 1.8.2
+ - https://github.com/shekyan/slowhttptest -
+[0;34mtest type:[1;34m                        SLOW HEADERS
+[0;34mnumber of connections:[1;34m            1000
+[0;34mURL:[1;34m                              http://133.228.86.3/
+[0;34mverb:[1;34m                             GET
+[0;34mcookie:[1;34m                           
+[0;34mContent-Length header value:[1;34m      4096
+[0;34mfollow up data max size:[1;34m          68
+[0;34minterval between follow up data:[1;34m  10 seconds
+[0;34mconnections per seconds:[1;34m          25
+[0;34mprobe connection timeout:[1;34m         5 seconds
+[0;34mtest duration:[1;34m                    240 seconds
+[0;34musing proxy:[1;34m                      no proxy 
+
+[0mSun Mar 19 19:55:28 2023:[1;32m
+slow HTTP test status on [0;32m140[1;32mth second:
+
+[1;32minitializing:[1;32m        0
+[1;32mpending:     [1;32m        0
+[1;32mconnected:   [1;32m        100
+[1;32merror:       [1;32m        0
+[1;32mclosed:      [1;32m        900
+[1;32mservice available:[1;32m   [1;32mYES[0m
+[0mSun Mar 19 19:55:33 2023:[H[2JSun Mar 19 19:55:33 2023:
+	[1;36mslowhttptest version 1.8.2
+ - https://github.com/shekyan/slowhttptest -
+[0;34mtest type:[1;34m                        SLOW HEADERS
+[0;34mnumber of connections:[1;34m            1000
+[0;34mURL:[1;34m                              http://133.228.86.3/
+[0;34mverb:[1;34m                             GET
+[0;34mcookie:[1;34m                           
+[0;34mContent-Length header value:[1;34m      4096
+[0;34mfollow up data max size:[1;34m          68
+[0;34minterval between follow up data:[1;34m  10 seconds
+[0;34mconnections per seconds:[1;34m          25
+[0;34mprobe connection timeout:[1;34m         5 seconds
+[0;34mtest duration:[1;34m                    240 seconds
+[0;34musing proxy:[1;34m                      no proxy 
+
+[0mSun Mar 19 19:55:33 2023:[1;32m
+slow HTTP test status on [0;32m145[1;32mth second:
+
+[1;32minitializing:[1;32m        0
+[1;32mpending:     [1;32m        0
+[1;32mconnected:   [1;32m        100
+[1;32merror:       [1;32m        0
+[1;32mclosed:      [1;32m        900
+[1;32mservice available:[1;32m   [1;32mYES[0m
+[0mSun Mar 19 19:55:38 2023:[H[2JSun Mar 19 19:55:38 2023:
+	[1;36mslowhttptest version 1.8.2
+ - https://github.com/shekyan/slowhttptest -
+[0;34mtest type:[1;34m                        SLOW HEADERS
+[0;34mnumber of connections:[1;34m            1000
+[0;34mURL:[1;34m                              http://133.228.86.3/
+[0;34mverb:[1;34m                             GET
+[0;34mcookie:[1;34m                           
+[0;34mContent-Length header value:[1;34m      4096
+[0;34mfollow up data max size:[1;34m          68
+[0;34minterval between follow up data:[1;34m  10 seconds
+[0;34mconnections per seconds:[1;34m          25
+[0;34mprobe connection timeout:[1;34m         5 seconds
+[0;34mtest duration:[1;34m                    240 seconds
+[0;34musing proxy:[1;34m                      no proxy 
+
+[0mSun Mar 19 19:55:38 2023:[1;32m
+slow HTTP test status on [0;32m150[1;32mth second:
+
+[1;32minitializing:[1;32m        0
+[1;32mpending:     [1;32m        0
+[1;32mconnected:   [1;32m        22
+[1;32merror:       [1;32m        0
+[1;32mclosed:      [1;32m        978
+[1;32mservice available:[1;32m   [1;32mYES[0m
+[0mSun Mar 19 19:55:39 2023:[0;36m
+Test ended on 151th second
+Exit status:[1;36m No open connections left
+[0m
+[?2004hkali-133.228.86.1> exit
+[?2004lexit
+
+Script done on 2023-03-19 19:55:58-04:00 [COMMAND_EXIT_CODE="0"]

