@@ -1,0 +1,122 @@
+Script started on 2023-04-16 18:04:02-04:00 [TERM="xterm" TTY="/dev/pts/3" COLUMNS="77" LINES="49"]
+[?2004hkali-133.228.86.1> exitsudo hping3 -2 -a 133.228.72.1 -c 10 -p 3454 133.228.86.3   [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./udpflood.sh[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnano udpflood.sh [4P./udpflood.shsudo hping3 -2 -a 133.228.72.1 -c 10 -p 3454 133.228.86.3   [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./udpflood.sh[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo chmod +s udpflood.sh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Ksudo chmod +s udpflood.sh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12P./udpflood.shsudo hping3 -2 -a 133.228.72.1 -c 10 -p 3454 133.228.86.3   [K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kwhile true;doget[3P./udpflood.shnano udpflood.sh [4P./udpflood.shwhile true;doget doget[C oget[1Poget[C getwget[C[C[C -O /dev/null http://133.228.86.3; slee p 6; do[Kone
+[?2004l--2023-04-16 18:04:43--  http://133.228.86.3/
+Connecting to 133.228.86.3:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 10918 (11K) [text/html]
+Saving to: ‘/dev/null’
+
+/dev/null             0%[                 ]       0  --.-KB/s               /dev/null           100%[================>]  10.66K  --.-KB/s    in 0s      
+
+2023-04-16 18:04:43 (292 MB/s) - ‘/dev/null’ saved [10918/10918]
+
+--2023-04-16 18:04:49--  http://133.228.86.3/
+Connecting to 133.228.86.3:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 10918 (11K) [text/html]
+Saving to: ‘/dev/null’
+
+/dev/null             0%[                 ]       0  --.-KB/s               /dev/null           100%[================>]  10.66K  --.-KB/s    in 0s      
+
+2023-04-16 18:04:49 (294 MB/s) - ‘/dev/null’ saved [10918/10918]
+
+--2023-04-16 18:04:55--  http://133.228.86.3/
+Connecting to 133.228.86.3:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 10918 (11K) [text/html]
+Saving to: ‘/dev/null’
+
+/dev/null             0%[                 ]       0  --.-KB/s               /dev/null           100%[================>]  10.66K  --.-KB/s    in 0s      
+
+2023-04-16 18:04:55 (321 MB/s) - ‘/dev/null’ saved [10918/10918]
+
+--2023-04-16 18:05:01--  http://133.228.86.3/
+Connecting to 133.228.86.3:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 10918 (11K) [text/html]
+Saving to: ‘/dev/null’
+
+/dev/null             0%[                 ]       0  --.-KB/s               /dev/null           100%[================>]  10.66K  --.-KB/s    in 0s      
+
+2023-04-16 18:05:01 (206 MB/s) - ‘/dev/null’ saved [10918/10918]
+
+--2023-04-16 18:05:07--  http://133.228.86.3/
+Connecting to 133.228.86.3:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 10918 (11K) [text/html]
+Saving to: ‘/dev/null’
+
+/dev/null             0%[                 ]       0  --.-KB/s               /dev/null           100%[================>]  10.66K  --.-KB/s    in 0s      
+
+2023-04-16 18:05:07 (298 MB/s) - ‘/dev/null’ saved [10918/10918]
+
+--2023-04-16 18:05:13--  http://133.228.86.3/
+Connecting to 133.228.86.3:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 10918 (11K) [text/html]
+Saving to: ‘/dev/null’
+
+/dev/null             0%[                 ]       0  --.-KB/s               /dev/null           100%[================>]  10.66K  --.-KB/s    in 0s      
+
+2023-04-16 18:05:13 (277 MB/s) - ‘/dev/null’ saved [10918/10918]
+
+--2023-04-16 18:05:19--  http://133.228.86.3/
+Connecting to 133.228.86.3:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 10918 (11K) [text/html]
+Saving to: ‘/dev/null’
+
+/dev/null             0%[                 ]       0  --.-KB/s               /dev/null           100%[================>]  10.66K  --.-KB/s    in 0s      
+
+2023-04-16 18:05:19 (625 MB/s) - ‘/dev/null’ saved [10918/10918]
+
+--2023-04-16 18:05:25--  http://133.228.86.3/
+Connecting to 133.228.86.3:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 10918 (11K) [text/html]
+Saving to: ‘/dev/null’
+
+/dev/null             0%[                 ]       0  --.-KB/s               /dev/null           100%[================>]  10.66K  --.-KB/s    in 0s      
+
+2023-04-16 18:05:25 (354 MB/s) - ‘/dev/null’ saved [10918/10918]
+
+^C
+
+[?2004hkali-133.228.86.1> while true; do wget -O /dev/null http://133.228.86.3; sleep 6; done[A[C[C[C[C[C[C[C[C[C[Cexit[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cwhile true; do wget -O /dev/null http://133.228.86.3; sleep 6; done[1P[1@1
+[?2004l--2023-04-16 18:05:31--  http://133.228.86.3/
+Connecting to 133.228.86.3:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 10918 (11K) [text/html]
+Saving to: ‘/dev/null’
+
+/dev/null             0%[                 ]       0  --.-KB/s               /dev/null           100%[================>]  10.66K  --.-KB/s    in 0s      
+
+2023-04-16 18:05:31 (286 MB/s) - ‘/dev/null’ saved [10918/10918]
+
+--2023-04-16 18:05:32--  http://133.228.86.3/
+Connecting to 133.228.86.3:80... failed: Connection refused.
+--2023-04-16 18:05:33--  http://133.228.86.3/
+Connecting to 133.228.86.3:80... failed: Connection refused.
+--2023-04-16 18:05:34--  http://133.228.86.3/
+Connecting to 133.228.86.3:80... failed: Connection refused.
+--2023-04-16 18:05:35--  http://133.228.86.3/
+Connecting to 133.228.86.3:80... failed: Connection refused.
+^C
+
+[?2004hkali-133.228.86.1> while true; do wget -O /dev/null http://133.228.86.3; sleep 1; done[1P[1@4
+[?2004l--2023-04-16 18:05:48--  http://133.228.86.3/
+Connecting to 133.228.86.3:80... failed: Connection refused.
+--2023-04-16 18:05:52--  http://133.228.86.3/
+Connecting to 133.228.86.3:80... failed: Connection refused.
+--2023-04-16 18:05:56--  http://133.228.86.3/
+Connecting to 133.228.86.3:80... failed: Connection refused.
+^C
+
+[?2004hkali-133.228.86.1> exit
+[?2004lexit
+
+Script done on 2023-04-16 18:05:59-04:00 [COMMAND_EXIT_CODE="130"]
