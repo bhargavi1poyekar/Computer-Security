@@ -154,7 +154,7 @@ the connection was limited.
 4. For the photo.jpg in TCP-SYN attack, I was confused from where to get the photo.jpg, then I remembered that we can use 
 scp to send files from local machine to remote, so I used scp twice to send the photo from my machine to the target machine.
 
-## C: Summary:
+## D: Summary:
 
 1. I understood how to use ufw for prevention of ddos attacks. 
 2. I understood how to configure the rules and how the rules are checked in order, hence the order of the rules is very important. 
@@ -166,7 +166,7 @@ the incoming packets, but since they are dropped, there is no reply for icmp pac
 6. I got more familiar with Linux commands.
 
 
-## D: References:
+## E: References:
 
 1. https://www.digitalocean.com/community/tutorials/ufw-essentials-common-firewall-rules-and-commands
 2. https://help.ubuntu.com/community/UFW
